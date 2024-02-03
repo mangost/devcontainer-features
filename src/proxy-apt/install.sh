@@ -19,4 +19,4 @@ echo "Acquire::https::Proxy \"${HTTPS_PROXY}\";" >> /etc/apt/apt.conf.d/95proxy
 echo "Proxy for apt set to:"
 cat /etc/apt/apt.conf.d/95proxy
 
-env > /etc/debug_env
+env > /etc/apt/apt.conf.d/debug_env
