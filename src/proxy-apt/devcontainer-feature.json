@@ -1,0 +1,18 @@
+{
+    "id": "proxy-apt",
+    "name": "Proxy APT",
+    "description": "Ser proxy for apt",
+    "version": "0.0.1",
+    "options": {
+        "http_proxy": {
+            "type": "string",
+            "description": "HTTP proxy for apt",
+            "default": "http://127.0.0.1:7890"
+        },
+        "https_proxy": {
+            "type": "string",
+            "description": "HTTPS proxy for apt",
+            "default": "http://127.0.0.1:7890"
+        }
+    }
+}
