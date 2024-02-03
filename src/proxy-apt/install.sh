@@ -6,6 +6,11 @@ if [ -f /etc/apt/apt.conf.d/95proxy ]; then
     exit 0
 fi
 
+if [ -z "${HTTP_PROXY}" ] && [ -z "${HTTPS_PROXY}" ]; then
+    echo "HTTP_PROXY and HTTPS_PROXY are not set"
+    exit 0
+fi
+
 # Set proxy for apt using options or environment variables
 echo "Acquire::http::Proxy \"${HTTP_PROXY}\";" > /etc/apt/apt.conf.d/95proxy
 echo "Acquire::https::Proxy \"${HTTPS_PROXY}\";" >> /etc/apt/apt.conf.d/95proxy
