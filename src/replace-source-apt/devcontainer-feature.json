@@ -2,7 +2,7 @@
     "id": "replace-source-apt",
     "name": "Replace Source for APT",
     "description": "Replace source for APT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "options": {
         "source_mirror": {
             "type": "string",

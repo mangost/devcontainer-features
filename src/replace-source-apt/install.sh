@@ -73,6 +73,7 @@ fi
 if [ "$SECURITY_FORCE_MIRROR" = "true" ]; then
     SOURCE_STRING="$SOURCE_STRING\n\
 deb $BASE_URL $VERSION_NAME-security main restricted universe multiverse"
+fi
 
 # if both
 if [ "$SOURCE_ENABLED" = "true" ] && [ "$SECURITY_FORCE_MIRROR" = "true" ]; then
