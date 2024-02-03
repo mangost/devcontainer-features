@@ -1,0 +1,24 @@
+{
+    "id": "replace-source-apt",
+    "name": "Replace Source for APT",
+    "description": "Replace source for APT",
+    "version": "0.0.1",
+    "options": {
+        "source_mirror": {
+            "type": "string",
+            "description": "Source provider",
+            "proposals": ["tsinghua", "sjtu",  "ustc", "aliyun", "163"],
+            "default": "tsinghua"
+        },
+        "source_enabled":{
+            "type": "boolean",
+            "description": "Enable source mirror",
+            "default": false
+        },
+        "security_force_mirror":{
+            "type": "boolean",
+            "description": "Enable security mirror",
+            "default": true
+        }
+    }
+}
