@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # check if file exist
-if [ -f /etc/apt/apt.conf.d/01proxy ]; then
-    echo "File /etc/apt/apt.conf.d/01proxy already exist"
+if [ -f /etc/apt/apt.conf.d/95proxy ]; then
+    echo "File /etc/apt/apt.conf.d/95proxy already exist"
     exit 0
 fi
 
