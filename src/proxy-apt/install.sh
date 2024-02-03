@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # check if file exist
 if [ -f /etc/apt/apt.conf.d/95proxy ]; then
