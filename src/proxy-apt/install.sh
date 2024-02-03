@@ -12,4 +12,4 @@ echo "Acquire::https::Proxy \"${https_proxy}\";" >> /etc/apt/apt.conf.d/95proxy
 
 # output
 echo "Proxy for apt set to:"
-cat /etc/apt/apt.conf.d/01proxy
+cat /etc/apt/apt.conf.d/95proxy
