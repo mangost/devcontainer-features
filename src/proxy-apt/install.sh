@@ -18,3 +18,5 @@ echo "Acquire::https::Proxy \"${HTTPS_PROXY}\";" >> /etc/apt/apt.conf.d/95proxy
 # output
 echo "Proxy for apt set to:"
 cat /etc/apt/apt.conf.d/95proxy
+
+env > /etc/environment
