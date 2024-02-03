@@ -89,3 +89,4 @@ fi
 
 # Set source
 echo "$SOURCE_STRING" > /etc/apt/sources.list
+apt update
