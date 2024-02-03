@@ -8,7 +8,7 @@ fi
 
 if [ -z "${HTTP_PROXY}" ] && [ -z "${HTTPS_PROXY}" ]; then
     echo "HTTP_PROXY and HTTPS_PROXY are not set"
-    exit 0
+    exit 1
 fi
 
 # Set proxy for apt using options or environment variables
