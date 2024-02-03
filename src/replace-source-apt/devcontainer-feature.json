@@ -19,6 +19,11 @@
             "type": "boolean",
             "description": "Enable security mirror",
             "default": true
+        },
+        "update":{
+            "type": "boolean",
+            "description": "Update source",
+            "default": false
         }
     }
 }
