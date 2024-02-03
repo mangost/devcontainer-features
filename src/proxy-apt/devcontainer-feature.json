@@ -2,7 +2,7 @@
     "id": "proxy-apt",
     "name": "Proxy APT",
     "description": "Ser proxy for apt",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "options": {
         "http_proxy": {
             "type": "string",
