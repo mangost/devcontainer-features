@@ -7,8 +7,8 @@ if [ -f /etc/apt/apt.conf.d/01proxy ]; then
 fi
 
 # Set proxy for apt using options or environment variables
-echo "Acquire::http::Proxy \"${http_proxy}\";" > /etc/apt/apt.conf.d/01proxy
-echo "Acquire::https::Proxy \"${https_proxy}\";" >> /etc/apt/apt.conf.d/01proxy
+echo "Acquire::http::Proxy \"${http_proxy}\";" > /etc/apt/apt.conf.d/95proxy
+echo "Acquire::https::Proxy \"${https_proxy}\";" >> /etc/apt/apt.conf.d/95proxy
 
 # output
 echo "Proxy for apt set to:"
